@@ -34,10 +34,14 @@ footer {
   color: grey;
   font-size: 0.8rem;
   width: 100%;
-  padding: 10px;
+  padding: 15px;
   position: fixed;
   bottom: 0;
-  right: 0;
+  left: 0;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  word-spacing: 2rem;
 }
 
 /* Elements within the main parts */
@@ -77,19 +81,4 @@ input {
   padding-left: 40px;
   height: 2rem;
   width: 25rem;
-}
-
-footer section {
-  display: inline-block;
-  width: 50%;
-  word-spacing: 2rem;
-}
-
-.leftfooter {
-  text-align: left;
-}
-
-.rightfooter {
-  text-align: right;
-  width: 50%;
 }
