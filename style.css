@@ -1,0 +1,95 @@
+/* General Declaration */
+html {
+  box-sizing: border-box;
+}
+
+*,
+*:before,
+*:after {
+  padding: 0;
+  margin: 0;
+  box-sizing: inherit;
+}
+
+/* Main Parts */
+body {
+  font-family: "Open Sans";
+}
+
+nav {
+  margin-right: 10px;
+  position: absolute;
+  right: 0;
+  word-spacing: 10px;
+}
+
+main {
+  text-align: center;
+  position: relative;
+  top: 160px;
+}
+
+footer {
+  background-color: lightgrey;
+  color: grey;
+  font-size: 0.8rem;
+  width: 100%;
+  padding: 10px;
+  position: fixed;
+  bottom: 0;
+  right: 0;
+}
+
+/* Elements within the main parts */
+nav button {
+  background-color: #4c8bf5;
+  color: white;
+  border: none;
+  padding: 0.5rem;
+}
+
+nav img {
+  vertical-align: middle;
+}
+
+main img {
+  width: 30%;
+}
+
+main section {
+  margin: 10px;
+}
+
+main button {
+  background-color: lightgray;
+  color: grey;
+  border: none;
+  border-radius: 5px;
+  margin: 5px;
+  padding: 0.5rem;
+}
+
+input {
+  background: url(img/search-icon.png) no-repeat scroll 1rem 1rem;
+  background-position-y: center;
+  border-radius: 20px;
+  border: 1px solid lightgray;
+  padding-left: 40px;
+  height: 2rem;
+  width: 25rem;
+}
+
+footer section {
+  display: inline-block;
+  width: 50%;
+  word-spacing: 2rem;
+}
+
+.leftfooter {
+  text-align: left;
+}
+
+.rightfooter {
+  text-align: right;
+  width: 50%;
+}
